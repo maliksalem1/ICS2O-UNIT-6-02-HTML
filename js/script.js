@@ -27,7 +27,7 @@
 /**
  * Resets the click counter
  */
-function resetProgress() {
+function resetCookies() {
   localStorage.clicks = 0
   updateCount()
 }
@@ -35,7 +35,7 @@ function resetProgress() {
 /**
  * Adds 1 to the counter
  */
-function onClick() {
+function getCookies() {
   localStorage.clicks++
   updateCount()
 }
