@@ -30,6 +30,7 @@
    function resetCookies() {
      localStorage.clicks = 0
      updateCount()
+     console.log(localStorage.clicks)
    }
    
    /**
@@ -38,4 +39,5 @@
    function getCookies() {
      localStorage.clicks++
      updateCount()
+     console.log(localStorage.clicks)
    }
